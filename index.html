@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CosmiCode | Solar System Adventure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <div class="section-frame">
+      <section id="home" class="hero-section">
+        <div class="hero-card text-center">
+        <span class="eyebrow">Space Adventure</span>
+        <h1>CosmiCode</h1>
+        <div class="hero-image floating">
+          <img src="assets/RevolvingSystem.svg" alt="Revolving Solar System" loading="lazy" />
+        </div>
+        <p class="hero-copy">
+          Travel through our Solar System, meet all the planets, play games, and become a Solar System Expert!
+        </p>
+        <a class="btn btn-outline-light btn-hero" href="#overview">🚀 Start My Journey</a>
+      </div>
+    </section>
+
+    <section id="overview" class="content-section section-overview">
+      <div class="container">
+        <div class="section-header text-center mx-auto" style="max-width:680px;">
+          <span class="eyebrow">Space Story</span>
+          <h2>Overview of Solar System</h2>
+        </div>
+        <div class="row align-items-center gap-4 mt-4">
+          <div class="col-lg-6 text-center">
+            <img src="assets/PlanetInHorizon.svg" alt="Planet in Horizon" class="section-illustration" />
+          </div>
+          <div class="col-lg-6">
+            <p class="intro-text">The Solar System is a family of planets, moons, and the bright Sun at the center.</p>
+            <div class="orbit-card card bg-dark-soft p-4 mb-4">
+              <p class="subtitle">Planet order memory</p>
+              <h3>My Very Educated Mother Just Served Us Noodles</h3>
+              <p class="mini-text">Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune</p>
+            </div>
+            <div class="row gy-3">
+              <div class="col-sm-6">
+                <div class="fun-card card p-3">
+                  <span>🪐</span>
+                  <div>
+                    <strong>Planets</strong>
+                    <p>8</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="fun-card card p-3">
+                  <span>⭐</span>
+                  <div>
+                    <strong>Stars</strong>
+                    <p>1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="fun-card card p-3">
+                  <span>🌙</span>
+                  <div>
+                    <strong>Moons</strong>
+                    <p>200+</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="fun-card card p-3">
+                  <span>🚀</span>
+                  <div>
+                    <strong>Age</strong>
+                    <p>4.6 Billion Years</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="fun-card card p-3">
+                  <span>🌌</span>
+                  <div>
+                    <strong>Galaxy</strong>
+                    <p>Milky Way</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="note mt-4">All planets travel around the Sun in paths called orbits.</p>
+            <div class="section-actions mt-4">
+              <a class="btn btn-outline-light btn-small" href="#home">← Back</a>
+              <a class="btn btn-outline-light btn-small" href="#sun">☀️ Sun Area →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sun" class="content-section section-sun">
+      <div class="container">
+        <div class="section-header text-center mx-auto" style="max-width:640px;">
+          <span class="eyebrow">Bright and Warm</span>
+          <h2>Introducing SUN</h2>
+        </div>
+        <div class="row align-items-center gap-4 mt-4">
+          <div class="col-md-5 text-center">
+            <div class="sun-card p-4 mx-auto">
+              <svg viewBox="0 0 140 140" class="sun-svg" aria-hidden="true">
+                <defs>
+                  <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#fff47b" />
+                    <stop offset="70%" stop-color="#ffbf3f" />
+                    <stop offset="100%" stop-color="#ff8b1f" />
+                  </radialGradient>
+                </defs>
+                <circle cx="70" cy="70" r="40" fill="url(#sunGlow)" />
+                <g stroke="#ffd56b" stroke-width="4" stroke-linecap="round">
+                  <line x1="70" y1="10" x2="70" y2="0" />
+                  <line x1="70" y1="130" x2="70" y2="140" />
+                  <line x1="10" y1="70" x2="0" y2="70" />
+                  <line x1="130" y1="70" x2="140" y2="70" />
+                  <line x1="22" y1="22" x2="15" y2="15" />
+                  <line x1="118" y1="22" x2="125" y2="15" />
+                  <line x1="22" y1="118" x2="15" y2="125" />
+                  <line x1="118" y1="118" x2="125" y2="125" />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="text-block card bg-dark-soft p-4">
+              <p>The Sun is at the center of our Solar System. It is a giant ball of hot gas that gives us:</p>
+              <ul class="info-list">
+                <li>☀️ Light</li>
+                <li>⚡ Energy</li>
+                <li>🌍 Warmth for life on Earth</li>
+              </ul>
+              <p class="note">Without the Sun there would be no life on Earth.</p>
+            </div>
+            <div class="row g-3 mt-3">
+              <div class="col-sm-6">
+                <div class="info-card card p-3">
+                  <h3>Surface Temperature</h3>
+                  <p>5,500°C</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="info-card card p-3">
+                  <h3>Size</h3>
+                  <p>Approximately 1.3 million Earths could fit inside the Sun.</p>
+                </div>
+              </div>
+            </div>
+            <div class="section-actions mt-4">
+              <a class="btn btn-outline-light btn-small" href="#overview">← Back</a>
+              <a class="btn btn-outline-light btn-small" href="#inner-planets">🪨 Inner Planet Check →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inner-planets" class="content-section section-planets">
+      <div class="container">
+        <div class="section-header text-center mx-auto" style="max-width:650px;">
+          <span class="eyebrow">Rocky Worlds</span>
+          <h2>The Inner Planets</h2>
+          <p class="intro-text">The 4 Rocky Planets</p>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon mercury"> </div>
+                <div>
+                  <h3>Mercury</h3>
+                  <ul>
+                    <li>Closest planet to the Sun</li>
+                    <li>Smallest planet</li>
+                    <li>A year lasts only 88 Earth days</li>
+                  </ul>
+                  <div class="planet-badge">☀️ Closest Planet</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon venus"> </div>
+                <div>
+                  <h3>Venus</h3>
+                  <ul>
+                    <li>Hottest planet</li>
+                    <li>Thick atmosphere traps heat</li>
+                    <li>Spins backwards compared to most planets</li>
+                  </ul>
+                  <div class="planet-badge">🔥 Hottest Planet</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon earth"> </div>
+                <div>
+                  <h3>Earth</h3>
+                  <ul>
+                    <li>Our home planet</li>
+                    <li>Only known planet with life</li>
+                    <li>71% covered by water</li>
+                  </ul>
+                  <div class="planet-badge">🌍 Our Home</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon mars"> </div>
+                <div>
+                  <h3>Mars</h3>
+                  <ul>
+                    <li>Known as the Red Planet</li>
+                    <li>Has the largest volcano in the Solar System</li>
+                    <li>Scientists hope humans may visit one day</li>
+                  </ul>
+                  <div class="planet-badge">🔴 Red Planet</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-actions mt-4 text-center">
+          <a class="btn btn-outline-light btn-small" href="#sun">← Back</a>
+          <a class="btn btn-outline-light btn-small" href="#outer-planets">🪐 Visit Outer Planet →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="outer-planets" class="content-section section-planets">
+      <div class="container">
+        <div class="section-header text-center mx-auto" style="max-width:650px;">
+          <span class="eyebrow">Gas Giants & Ice Worlds</span>
+          <h2>The Outer Planets</h2>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon jupiter"> </div>
+                <div>
+                  <h3>Jupiter</h3>
+                  <ul>
+                    <li>Largest planet</li>
+                    <li>Has a giant storm called the Great Red Spot</li>
+                    <li>More than 90 moons</li>
+                  </ul>
+                  <div class="planet-badge">👑 Largest Planet</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon saturn"> </div>
+                <div>
+                  <h3>Saturn</h3>
+                  <ul>
+                    <li>Famous for its rings</li>
+                    <li>Made mostly of gas</li>
+                    <li>Could float in water if a giant ocean existed</li>
+                  </ul>
+                  <div class="planet-badge">💍 Ring World</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon uranus"> </div>
+                <div>
+                  <h3>Uranus</h3>
+                  <ul>
+                    <li>Ice Giant</li>
+                    <li>Rotates on its side</li>
+                    <li>Blue-green color comes from methane gas</li>
+                  </ul>
+                  <div class="planet-badge">🧊 Ice Giant</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="planet-card card p-4 h-100">
+              <div class="planet-row d-flex flex-column flex-lg-row align-items-center gap-3">
+                <div class="planet-icon neptune"> </div>
+                <div>
+                  <h3>Neptune</h3>
+                  <ul>
+                    <li>Farthest planet from the Sun</li>
+                    <li>Strongest winds in the Solar System</li>
+                    <li>Deep blue color</li>
+                  </ul>
+                  <div class="planet-badge">🌊 Deep Blue Giant</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-actions mt-4 text-center">
+          <a class="btn btn-outline-light btn-small" href="#inner-planets">← Inner Planets</a>
+          <a class="btn btn-outline-light btn-small" href="#planet-game">🎮 Planet Order Game →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="planet-game" class="content-section section-game">
+      <div class="container">
+        <div class="section-header text-center mx-auto" style="max-width:680px;">
+          <span class="eyebrow">Interactive Game</span>
+          <h2>Which Planet Is It?</h2>
+          <p class="intro-text">Guess the planet or the Sun from the picture and learn your score as you play.</p>
+        </div>
+        <div class="row g-4 mt-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="game-card card p-4 h-100">
+              <div id="gameDisplay" class="game-display"></div>
+              <p id="gameHint" class="game-hint">Pick the right name for this star or planet.</p>
+              <div id="gameOptions" class="game-options"></div>
+              <div class="game-controls mt-3">
+                <button id="resetGameBtn" class="btn btn-outline-light btn-small me-2" type="button">🔄 Reset</button>
+                <button id="checkAnswerBtn" class="btn btn-outline-light btn-small" type="button">✅ Check Answer</button>
+              </div>
+              <div id="gameStatus" class="game-status mt-3"></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="score-panel card p-4 h-100">
+              <h3>Game Score</h3>
+              <div class="score-row">
+                <div>
+                  <p class="score-value" id="gameCorrect">0</p>
+                  <p>Correct</p>
+                </div>
+                <div>
+                  <p class="score-value" id="gameWrong">0</p>
+                  <p>Wrong</p>
+                </div>
+                <div>
+                  <p class="score-value" id="gameTotal">0</p>
+                  <p>Played</p>
+                </div>
+              </div>
+              <p class="note mt-3">Each round shows a new planet or the Sun. Try to get a perfect run!</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-actions mt-4 text-center">
+          <a class="btn btn-outline-light btn-small" href="#outer-planets">← Back</a>
+          <a class="btn btn-outline-light btn-small" href="#solaraquiz">✅ Quiz Time →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="solaraquiz" class="content-section section-quiz">
+      <div class="container">
+        <div class="section-header text-center mx-auto" style="max-width:680px;">
+          <span class="eyebrow">Quiz Challenge</span>
+          <h2>SolaraQuizzz</h2>
+        </div>
+        <div class="quiz-card card p-4 mt-4">
+          <form id="quizForm">
+            <div class="quiz-question-group">
+              <p class="quiz-question">1. What is at the center of our Solar System?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" id="q1a" value="Earth" />
+                <label class="form-check-label" for="q1a">A. Earth</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" id="q1b" value="The Sun" />
+                <label class="form-check-label" for="q1b">B. The Sun</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" id="q1c" value="The Moon" />
+                <label class="form-check-label" for="q1c">C. The Moon</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" id="q1d" value="Saturn" />
+                <label class="form-check-label" for="q1d">D. Saturn</label>
+              </div>
+            </div>
+            <div class="quiz-question-group mt-4">
+              <p class="quiz-question">2. Which planet is closest to the Sun?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" id="q2a" value="Mercury" />
+                <label class="form-check-label" for="q2a">A. Mercury</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" id="q2b" value="Venus" />
+                <label class="form-check-label" for="q2b">B. Venus</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" id="q2c" value="Earth" />
+                <label class="form-check-label" for="q2c">C. Earth</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" id="q2d" value="Mars" />
+                <label class="form-check-label" for="q2d">D. Mars</label>
+              </div>
+            </div>
+            <div class="quiz-question-group mt-4">
+              <p class="quiz-question">3. Which planet is known as the Red Planet?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" id="q3a" value="Venus" />
+                <label class="form-check-label" for="q3a">A. Venus</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" id="q3b" value="Mars" />
+                <label class="form-check-label" for="q3b">B. Mars</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" id="q3c" value="Jupiter" />
+                <label class="form-check-label" for="q3c">C. Jupiter</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" id="q3d" value="Neptune" />
+                <label class="form-check-label" for="q3d">D. Neptune</label>
+              </div>
+            </div>
+            <div class="quiz-question-group mt-4">
+              <p class="quiz-question">4. Which planet is our home?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" id="q4a" value="Earth" />
+                <label class="form-check-label" for="q4a">A. Earth</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" id="q4b" value="Mercury" />
+                <label class="form-check-label" for="q4b">B. Mercury</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" id="q4c" value="Saturn" />
+                <label class="form-check-label" for="q4c">C. Saturn</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" id="q4d" value="Uranus" />
+                <label class="form-check-label" for="q4d">D. Uranus</label>
+              </div>
+            </div>
+            <div class="quiz-question-group mt-4">
+              <p class="quiz-question">5. Which planet has famous rings?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q5" id="q5a" value="Earth" />
+                <label class="form-check-label" for="q5a">A. Earth</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q5" id="q5b" value="Mars" />
+                <label class="form-check-label" for="q5b">B. Mars</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q5" id="q5c" value="Saturn" />
+                <label class="form-check-label" for="q5c">C. Saturn</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q5" id="q5d" value="Neptune" />
+                <label class="form-check-label" for="q5d">D. Neptune</label>
+              </div>
+            </div>
+            <div class="quiz-question-group mt-4">
+              <p class="quiz-question">6. Which is the largest planet?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q6" id="q6a" value="Jupiter" />
+                <label class="form-check-label" for="q6a">A. Jupiter</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q6" id="q6b" value="Earth" />
+                <label class="form-check-label" for="q6b">B. Earth</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q6" id="q6c" value="Uranus" />
+                <label class="form-check-label" for="q6c">C. Uranus</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q6" id="q6d" value="Venus" />
+                <label class="form-check-label" for="q6d">D. Venus</label>
+              </div>
+            </div>
+            <div class="quiz-question-group mt-4">
+              <p class="quiz-question">7. Which planet rotates on its side?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q7" id="q7a" value="Uranus" />
+                <label class="form-check-label" for="q7a">A. Uranus</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q7" id="q7b" value="Neptune" />
+                <label class="form-check-label" for="q7b">B. Neptune</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q7" id="q7c" value="Jupiter" />
+                <label class="form-check-label" for="q7c">C. Jupiter</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q7" id="q7d" value="Mars" />
+                <label class="form-check-label" for="q7d">D. Mars</label>
+              </div>
+            </div>
+            <div class="quiz-question-group mt-4">
+              <p class="quiz-question">8. Which planet is farthest from the Sun?</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q8" id="q8a" value="Saturn" />
+                <label class="form-check-label" for="q8a">A. Saturn</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q8" id="q8b" value="Uranus" />
+                <label class="form-check-label" for="q8b">B. Uranus</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q8" id="q8c" value="Neptune" />
+                <label class="form-check-label" for="q8c">C. Neptune</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q8" id="q8d" value="Earth" />
+                <label class="form-check-label" for="q8d">D. Earth</label>
+              </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3 mt-4">
+              <a class="btn btn-outline-light btn-small" href="#planet-game">← Back</a>
+              <button id="submitQuizBtn" type="submit" class="btn btn-outline-light btn-small">Submit Quiz</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="scoreboard" class="content-section section-scoreboard">
+      <div class="container text-center">
+        <div class="section-header mx-auto" style="max-width:720px;">
+          <span class="eyebrow">Adventure Complete</span>
+          <h2>🎉 Congratulations!</h2>
+          <p>You completed the CosmiCode Solar System Adventure!</p>
+        </div>
+        <div class="row g-4 justify-content-center mt-4">
+          <div class="col-md-6">
+            <div class="result-card card p-4">
+              <h3>Results Card</h3>
+              <p class="result-line">⭐ Quiz Score: <strong id="scoreValue">0</strong> / 8</p>
+              <p class="result-line">🚀 Planets Learned: <strong>8</strong></p>
+              <p class="result-line">☀️ Star Learned: <strong>1</strong></p>
+              <p class="result-line">🏆 Space Explorer Badge Earned!</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="fact-card card p-4">
+              <h3>Fun Fact</h3>
+              <p>If you traveled at the speed of a car, it would take over 6,000 years to reach Neptune!</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-actions mt-4">
+          <button id="playAgainBtn" class="btn btn-outline-light btn-small">🔄 Play Again</button>
+          <a class="btn btn-outline-light btn-small" href="#home">🏠 Return Home</a>
+        </div>
+      </div>
+    </section>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="function.js"></script>
+</body>
+</html>
